@@ -1,7 +1,7 @@
 # ppp-speed-up
 ## 云梯智能加速脚本 [云梯](www.yuntiweb.com)
 
-![目录结构](https://github.com/qrsforever/ppp-speed-up/tree.png)
+![目录结构](https://github.com/qrsforever/ppp-speed-up/blob/master/tree.png)
 
 ip-down         云梯官网更新的路由, 定期同步  
 ip-pre-up       保存OLD网关  

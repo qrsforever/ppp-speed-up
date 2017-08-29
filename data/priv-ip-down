@@ -5,3 +5,6 @@ OLDGW=`cat /tmp/vpn_oldgw`
 
 # 乐视私有网络
 route del -net 10.0.0.0 netmask 255.0.0.0
+
+# www.csdn.net
+route del -host 101.201.172.229

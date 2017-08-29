@@ -33,14 +33,14 @@ function fedora_install() {
 }
 
 function ubuntu_install() {
-  cp $SCRIPTDIR/data/ip-pre-up /etc/ppp/ip-pre-up
-  chmod +x /etc/ppp/ip-pre-up
+  cp $SCRIPTDIR/data/*ip-pre-up /etc/ppp/
+  chmod +x /etc/ppp/*ip-pre-up
 
-  cp $SCRIPTDIR/data/ip-up /etc/ppp/ip-up.d/ip-up
-  chmod +x /etc/ppp/ip-up.d/ip-up
+  cp $SCRIPTDIR/data/*ip-up /etc/ppp/ip-up.d/
+  chmod +x /etc/ppp/ip-up.d/*ip-up
 
-  cp $SCRIPTDIR/data/ip-down /etc/ppp/ip-down.d/ip-down
-  chmod +x /etc/ppp/ip-down.d/ip-down
+  cp $SCRIPTDIR/data/*ip-down /etc/ppp/ip-down.d/
+  chmod +x /etc/ppp/ip-down.d/*ip-down
 }
 
 welcome

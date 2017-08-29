@@ -5,5 +5,5 @@ export PATH="/bin:/sbin:/usr/sbin:/usr/bin"
 OLDGW=`cat /tmp/vpn_oldgw`
 
 # 乐视私有网络
-route add -net 10.0.0.0 netmask 255.255.255.0 gw $OLDGW
+route add -net 10.0.0.0 netmask 255.0.0.0 gw $OLDGW
 
